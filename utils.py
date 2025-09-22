@@ -34,4 +34,4 @@ def zero_var(sz):
     x = Variable(torch.zeros(sz))
     if torch.cuda.is_available():
         x = x.cuda()
-    return x
+    r
